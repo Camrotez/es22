@@ -10,7 +10,7 @@ function UncontrolledLogin(){
     })
     return(
         <form onSubmit={handlelogin}>
-            <input name="username" defaultValue="Luciano"/>
+            <input name="username" autoFocus/>
             <input name="password" type="password" />
             <button type="submit">Login</button>
             <button type="reset">Reset</button>
